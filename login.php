@@ -25,7 +25,7 @@ $password = "";
 $conexion = mysqli_connect($servername, $username, $password, $database);
 mysqli_select_db ($conexion,$database); 
 
-	$consulta = "SELECT * FROM articulos_de_cocina";
+	$consulta = "SELECT * FROM users";
 
 	$resultado = mysqli_query($conexion, $consulta);
 
